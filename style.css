@@ -19,9 +19,10 @@ body {
   display: grid;
   height: 320px;
   width: 233px;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(136, 136, 136);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr repeat(5, 48px);
+  border-radius: 0.25rem;
 }
 
 .wrapper button {
@@ -33,8 +34,46 @@ body {
   font-size: 3rem;
   justify-self: end;
   align-self: end;
+  max-width: 100%;
+  min-width: 0;
+  color: white;
+  font-weight: 100;
 }
 
 .item.btn17 {
   grid-column: 1 / 3;
+}
+
+.item.btn19,
+.item.btn16,
+.item.btn12,
+.item.btn8,
+.item.btn4 {
+  background-color: orange;
+  border: 1px solid #616161;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: none;
+}
+
+.item.btn1,
+.item.btn2,
+.item.btn3,
+.item.btn1,
+.item.btn5,
+.item.btn6,
+.item.btn7,
+.item.btn9,
+.item.btn10,
+.item.btn11,
+.item.btn13,
+.item.btn14,
+.item.btn15,
+.item.btn17,
+.item.btn18 {
+  background-color: #e9e8e8;
+  border: 1px solid #616161;
+  color: black;
+  font-size: 1.4rem;
 }
